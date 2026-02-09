@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Las B Inno Tech Media for all your printing needs in Awutu Bereku">
+    <title>Contact Us - Las B Inno Tech Media</title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="assets/lasB.png" alt="Las B Inno Tech Media Logo">
+                    <div>
+                        <h1>Las B Inno Tech Media</h1>
+                        <p class="tagline">Quality Printing & Services</p>
+                    </div>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+233 23 456 7890">
+                            <span class="error-message" id="phoneError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="document-printing">Document Printing</option>
+                                <option value="tshirt-printing">Custom T-Shirt Printing</option>
+                                <option value="banners-posters">Banners & Posters</option>
+                                <option value="photocopy">Photocopy Services</option>
+                                <option value="mobile-money">Mobile Money</option>
+                                <option value="custom-gifts">Custom Gift Items</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project or inquiry..."></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+
+                    <div id="formSuccess" class="success-message" style="display: none;">
+                        <p>✓ Thank you! Your message has been sent successfully. We'll get back to you soon.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-container">
+                    <h2>Get In Touch</h2>
+                    <p>Visit us or reach out through any of the channels below.</p>
+
+                    <div class="contact-info-items">
+                        <div class="contact-info-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-details">
+                                <h3>Our Location</h3>
+                                <p>Awutu Bereku<br>Central Region<br>Ghana</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="contact-details">
+                                <h3>Phone Numbers</h3>
+                                <p>+233 55 411 8663<br>+233 55 411 8663</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div class="contact-details">
+                                <h3>WhatsApp</h3>
+                                <p>+233 55 411 8663 <br>Quick responses available</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <h3>Email Address</h3>
+                                <p>info@lasbinnotech.com<br>support@lasbinnotech.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                            <div class="contact-details">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                   Saturday: 9:00 AM - 4:00 PM<br>
+                                   Sunday: Closed</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-icon"></div>
+                            <div class="contact-details">
+                                <h3>Follow Us</h3>
+                                <div class="social-links-vertical">
+                                    <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                                    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us Here</h2>
+            <div class="map-container">
+                <!-- Placeholder for Google Maps -->
+               <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d254.99630851711262!2d-0.5125881707884374!3d5.515057643122186!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sgh!4v1768661732050!5m2!1sen!2sgh" 
+               width="600" 
+               height="450" 
+               style="border:0;" 
+               allowfullscreen="" 
+               loading="lazy" 
+               referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How long does printing take?</h3>
+                    <p>Most standard printing jobs are completed within 24 hours. Large or complex orders may take 2-3 days. Rush orders can be accommodated for an additional fee.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Do you offer bulk discounts?</h3>
+                    <p>Yes! We offer competitive pricing for bulk orders, especially for t-shirts, mugs, and other custom items. Contact us for a custom quote.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Can I bring my own design?</h3>
+                    <p>Absolutely! You can provide your own designs in formats like JPG, PNG, or PDF. We can also help with basic design adjustments if needed.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept cash, mobile money (all networks), and bank transfers. Payment is typically required before or upon completion of your order.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Do you deliver?</h3>
+                    <p>Yes, we offer delivery services within Awutu Bereku and surrounding areas for an additional fee based on location.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What if I'm not satisfied with the result?</h3>
+                    <p>Customer satisfaction is our priority. If there's an issue with our work, we'll work with you to make it right. Contact us immediately if you have concerns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Las B Inno Tech Media</h3>
+                    <p>Your trusted partner for all printing and service needs in Awutu Bereku.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li>Document Printing</li>
+                        <li>Custom T-Shirts</li>
+                        <li>Banners & Posters</li>
+                        <li>Mobile Money</li>
+                        <li>Custom Gift Items</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Las B Inno Tech Media. All rights reserved. | Designed for IT245 Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
